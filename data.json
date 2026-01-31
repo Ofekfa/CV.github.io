@@ -1,0 +1,69 @@
+{
+  "basics": {
+    "name": "Ofek Farkash",
+    "contact": {
+      "email": "ofekff0@gmail.com",
+      "phone": "054-554-3172"
+    }
+  },
+  "education": [
+    {
+      "institution": "The Hebrew University",
+      "degree": "B.Sc.",
+      "fields_of_study": ["Physics", "Computer Science"],
+      "status": "Ongoing (Third Year)",
+      "expected_graduation": "July 2027",
+      "notes": "3.5 semesters left",
+      "gpa": 85,
+      "relevant_coursework": [
+        { "course": "Introduction to Computer Science", "score": 90 },
+        { "course": "Data Structures", "score": 87 },
+        { "course": "Algorithms", "score": 93 }
+      ],
+      "currently_studying": ["Object-Oriented Programming", "From Nand to Tetris"]
+    }
+  ],
+  "psychometric_scores": {
+    "multi_disciplinary": 706,
+    "quantitative": 715
+  },
+  "high_school": {
+    "graduation_year": 2017,
+    "majors": ["Physics", "Computer Science"],
+    "matriculation_average": 112,
+    "key_subjects": [
+      { "subject": "Mathematics", "units": 5 },
+      { "subject": "English", "units": 5 },
+      { "subject": "Physics", "units": 5 },
+      { "subject": "Computer Science", "units": 5 }
+    ]
+  },
+  "technical_skills": {
+    "programming_languages": {
+      "proficient": ["Python", "C", "C++"],
+      "basic": ["Assembly", "HTML", "Java"]
+    },
+    "tools_and_os": ["Git", "Linux", "Windows"],
+    "projects": [
+      {
+        "title": "Containerized Python microservice (basic game)",
+        "status": "Ongoing",
+        "description": "FastAPI + Pydantic microservice implementing a basic game, exposing REST endpoints with strict schema validation.",
+        "core_integrations": ["Docker Compose", "MySQL", "RabbitMQ", "pytest"]
+      }
+    ]
+  },
+  "military_experience": [
+    {
+      "unit": "Moran Unit",
+      "role": "Officer",
+      "dates": { "start_year": 2018, "end_year": 2022 },
+      "responsibilities_and_achievements": [
+        "Served in diverse roles working under tight deadlines; teamwork and collaboration emphasized.",
+        "Awarded 5 certificates of excellence; reached rank of Lieutenant; currently holds rank of Captain in reserves.",
+        "Served in both professional and command roles."
+      ]
+    }
+  ],
+  "languages": ["Hebrew (Fluent)", "English (Fluent)"]
+}
