@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ofek Farkash - Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
     <nav class="navbar">
@@ -26,11 +27,18 @@
             <h1 class="name">Ofek Farkash</h1>
             <p class="tagline">Computer Science & Physics Student | Software Developer</p>
             <div class="contact-info">
-                <a href="mailto:ofekff0@gmail.com" class="contact-link">ofekff0@gmail.com</a>
-                <span class="contact-separator">•</span>
-                <span class="contact-link">054-554-3172</span>
-                <span class="contact-separator">•</span>
-                <a href="https://github.com/Ofekfa" class="contact-link" target="_blank">GitHub</a>
+                <a href="mailto:ofekff0@gmail.com" class="contact-link" title="Email">
+                    <i class="fas fa-envelope"></i>
+                </a>
+                <a href="tel:054-554-3172" class="contact-link" title="Phone">
+                    <i class="fas fa-phone"></i>
+                </a>
+                <a href="https://github.com/Ofekfa" class="contact-link" target="_blank" title="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/ofek-farkash-1b326531b" class="contact-link" target="_blank" title="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
             </div>
         </div>
     </header>
@@ -95,20 +103,68 @@
             <h2 class="section-title">Projects & Labs</h2>
             <div class="projects-grid">
                 <div class="project-card">
-                    <div class="project-status">Ongoing</div>
-                    <h3 class="project-title">Containerized Python Microservice</h3>
+                    <div class="project-status">Python</div>
+                    <h3 class="project-title">Drawing Application</h3>
                     <p class="project-description">
-                        FastAPI + Pydantic microservice implementing a basic game, exposing REST endpoints with strict schema validation. 
-                        The project demonstrates modern software architecture patterns and containerization best practices.
+                        Python-based drawing application with an intuitive interface. Features include various drawing tools, 
+                        color selection, and canvas manipulation capabilities.
                     </p>
-                    <div class="project-tech">
-                        <span class="tech-tag">Docker Compose</span>
-                        <span class="tech-tag">MySQL</span>
-                        <span class="tech-tag">RabbitMQ</span>
-                        <span class="tech-tag">pytest</span>
-                        <span class="tech-tag">FastAPI</span>
-                        <span class="tech-tag">Pydantic</span>
+                    <div class="project-links">
+                        <a href="https://github.com/Ofekfa/Intro2CS/blob/main/README.md" class="project-link" target="_blank">
+                            <i class="fab fa-github"></i> GitHub
+                        </a>
+                        <a href="https://youtu.be/RgjhnjOFvSc?si=jIKzHPsTQ6rUvzbH" class="project-link" target="_blank">
+                            <i class="fab fa-youtube"></i> Demo
+                        </a>
                     </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-status">Java</div>
+                    <h3 class="project-title">Bricker Game</h3>
+                    <p class="project-description">
+                        Object-oriented brick breaker game implementing advanced game mechanics, collision detection, 
+                        and dynamic gameplay features using Java.
+                    </p>
+                    <a href="https://github.com/Ofekfa/Bricker-Game/blob/main/README.md" class="project-link" target="_blank">
+                        <i class="fab fa-github"></i> View on GitHub
+                    </a>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-status">Java</div>
+                    <h3 class="project-title">Avatar Game</h3>
+                    <p class="project-description">
+                        Interactive game featuring procedural world generation, character movement, and environmental interactions. 
+                        Built with OOP principles and design patterns.
+                    </p>
+                    <a href="https://github.com/Ofekfa/Avatar-Game/blob/main/README.md" class="project-link" target="_blank">
+                        <i class="fab fa-github"></i> View on GitHub
+                    </a>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-status">Java</div>
+                    <h3 class="project-title">ASCII Art Algorithm</h3>
+                    <p class="project-description">
+                        Algorithm that converts images to ASCII art using character mapping and brightness analysis. 
+                        Demonstrates image processing and algorithmic thinking.
+                    </p>
+                    <a href="https://github.com/Ofekfa/AsciiArt.java/blob/main/README.md" class="project-link" target="_blank">
+                        <i class="fab fa-github"></i> View on GitHub
+                    </a>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-status">C/C++</div>
+                    <h3 class="project-title">MLP Network</h3>
+                    <p class="project-description">
+                        Multi-Layer Perceptron neural network implementation from scratch in C/C++. Features forward propagation, 
+                        backpropagation, and training capabilities for digit recognition.
+                    </p>
+                    <a href="https://github.com/Ofekfa/MLP-Network/blob/main/README.md" class="project-link" target="_blank">
+                        <i class="fab fa-github"></i> View on GitHub
+                    </a>
                 </div>
 
                 <div class="project-card">
@@ -118,7 +174,9 @@
                         Comprehensive study of attenuation coefficients and gamma–matter interaction. This lab work demonstrates 
                         experimental physics methodology and data analysis skills.
                     </p>
-                    <a href="https://drive.google.com/drive/folders/167DsMVKBK5CgR2QD5LhIx81udihgCuJI" class="project-link" target="_blank">View Report →</a>
+                    <a href="https://drive.google.com/drive/folders/167DsMVKBK5CgR2QD5LhIx81udihgCuJI" class="project-link" target="_blank">
+                        <i class="fas fa-file-pdf"></i> View Report
+                    </a>
                 </div>
 
                 <div class="project-card">
@@ -128,7 +186,9 @@
                         Evaluated Brownian noise reconstruction using Fast Fourier Transform (FFT). This work showcases 
                         signal processing and computational physics techniques.
                     </p>
-                    <a href="https://drive.google.com/file/d/1IA3xVA9x9mw5iOzVfTGqIA19AQyg8UkF/view" class="project-link" target="_blank">View Report →</a>
+                    <a href="https://drive.google.com/file/d/1IA3xVA9x9mw5iOzVfTGqIA19AQyg8UkF/view" class="project-link" target="_blank">
+                        <i class="fas fa-file-pdf"></i> View Report
+                    </a>
                 </div>
             </div>
         </div>
