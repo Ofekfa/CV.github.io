@@ -1,10 +1,8 @@
 {
-  "basics": {
-    "name": "Ofek Farkash",
-    "contact": {
-      "email": "ofekff0@gmail.com",
-      "phone": "054-554-3172"
-    }
+  "name": "Ofek Farkash",
+  "contact": {
+    "email": "ofekff0@gmail.com",
+    "phone": "054-554-3172"
   },
   "education": [
     {
@@ -12,58 +10,84 @@
       "degree": "B.Sc.",
       "fields_of_study": ["Physics", "Computer Science"],
       "status": "Ongoing (Third Year)",
-      "expected_graduation": "July 2027",
-      "notes": "3.5 semesters left",
       "gpa": 85,
+      "expected_graduation": "July 2027",
       "relevant_coursework": [
-        { "course": "Introduction to Computer Science", "score": 90 },
-        { "course": "Data Structures", "score": 87 },
-        { "course": "Algorithms", "score": 93 }
+        { "course": "Physics Labs - A", "score": 95 },
+        { "course": "Physics Labs - B", "score": 93 },
+        { "course": "Algorithms", "score": 93 },
+        { "course": "Introduction to Computer Science", "score": 90 }
       ],
-      "currently_studying": ["Object-Oriented Programming", "From Nand to Tetris"]
+      "currently_studying": [
+        "Object-Oriented Programming",
+        "From Nand to Tetris",
+        "Physics Lab C"
+      ]
+    },
+    {
+      "institution": "High School",
+      "graduated": 2017,
+      "matriculation_average": 112,
+      "key_subjects": [
+        "Physics",
+        "Computer Science",
+        "Mathematics (5 units)",
+        "English (5 units)"
+      ]
     }
   ],
-  "psychometric_scores": {
-    "multi_disciplinary": 706,
-    "quantitative": 715
-  },
-  "high_school": {
-    "graduation_year": 2017,
-    "majors": ["Physics", "Computer Science"],
-    "matriculation_average": 112,
-    "key_subjects": [
-      { "subject": "Mathematics", "units": 5 },
-      { "subject": "English", "units": 5 },
-      { "subject": "Physics", "units": 5 },
-      { "subject": "Computer Science", "units": 5 }
-    ]
+  "test_scores": {
+    "psychometric": {
+      "multi_disciplinary": 706,
+      "quantitative": 715
+    }
   },
   "technical_skills": {
     "programming_languages": {
-      "proficient": ["Python", "C", "C++"],
-      "basic": ["Assembly", "HTML", "Java"]
+      "proficient": ["Python", "C", "C++", "Java"],
+      "basic": ["MATLAB", "HTML", "Assembly"]
     },
-    "tools_and_os": ["Git", "Linux", "Windows"],
-    "projects": [
+    "tools_and_os": ["Git", "Linux", "Windows"]
+  },
+  "laboratory_experience": {
+    "completed_laboratory_courses_count": 4,
+    "selected_work": [
       {
-        "title": "Containerized Python microservice (basic game)",
-        "status": "Ongoing",
-        "description": "FastAPI + Pydantic microservice implementing a basic game, exposing REST endpoints with strict schema validation.",
-        "core_integrations": ["Docker Compose", "MySQL", "RabbitMQ", "pytest"]
+        "topic": "Gamma ray spectroscopy",
+        "details": "Attenuation coefficients and gamma–matter interaction."
+      },
+      {
+        "topic": "Motion & Brownian Noise",
+        "details": "Evaluated Brownian noise reconstruction using FFT."
       }
     ]
   },
+  "projects": [
+    {
+      "status": "Ongoing",
+      "description": "Containerized Python microservice (FastAPI + Pydantic) implementing a basic game, exposing REST endpoints with strict schema validation.",
+      "core_integrations": ["Docker Compose", "MySQL", "RabbitMQ", "pytest"]
+    }
+  ],
   "military_experience": [
     {
       "unit": "Moran Unit",
       "role": "Officer",
-      "dates": { "start_year": 2018, "end_year": 2022 },
+      "dates": "2018 - 2022",
       "responsibilities_and_achievements": [
-        "Served in diverse roles working under tight deadlines; teamwork and collaboration emphasized.",
-        "Awarded 5 certificates of excellence; reached rank of Lieutenant; currently holds rank of Captain in reserves.",
-        "Served in both professional and command roles."
-      ]
+        "Platoon Commander (field): Led execution of multiple complex missions requiring thorough operational planning, close attention to detail, strong leadership, and high professionalism.",
+        "Section Commander: Drove and delivered brigade-level professional processes, managing personnel and coordinating effectively with external parties.",
+        "Course Commander: Commanded a training course end-to-end, overseeing professional curriculum and coordinating required administrative operations."
+      ],
+      "awards_and_rank": {
+        "certificates_of_excellence": 5,
+        "reached_rank": "Lieutenant",
+        "current_rank": "Captain (reserves)"
+      }
     }
   ],
-  "languages": ["Hebrew (Fluent)", "English (Fluent)"]
+  "languages": [
+    { "language": "Hebrew", "proficiency": "Fluent" },
+    { "language": "English", "proficiency": "Fluent" }
+  ]
 }
