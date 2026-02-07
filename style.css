@@ -350,11 +350,16 @@ body {
     box-shadow: 0 4px 12px rgba(0,0,0,0.15);
 }
 
-.project-image {
+.project-image,
+.project-video {
     width: 100%;
     height: 200px;
     object-fit: cover;
     border-bottom: 1px solid var(--border-color);
+}
+
+.project-video {
+    background-color: #000;
 }
 
 .project-card > *:not(.project-image) {
